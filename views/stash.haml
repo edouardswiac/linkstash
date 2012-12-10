@@ -1,0 +1,9 @@
+/ Main hero unit for a primary marketing message or call to action
+.hero-unit
+  %h2="Your weekly stash of links"
+  - @stash.urls.each do |u|
+    %li
+      %span.label=u[:created]
+      %a{href: u[:url]}=u[:title]
+
+  
