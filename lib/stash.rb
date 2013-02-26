@@ -1,5 +1,5 @@
 require 'rest-client'
-require 'SecureRandom'
+require 'securerandom'
 require 'nokogiri'   
 
 class Stash
